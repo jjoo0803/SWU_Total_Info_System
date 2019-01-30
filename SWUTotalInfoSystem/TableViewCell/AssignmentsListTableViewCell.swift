@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AssignmentsTableViewCell: UITableViewCell {
+class AssignmentsListTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -127,7 +127,7 @@
         <!--과제-->
         <scene sceneID="Kxo-2b-Kai">
             <objects>
-                <viewController id="c3x-oh-Nvl" customClass="AssignmentsViewController" customModule="SWUTotalInfoSystem" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="c3x-oh-Nvl" customClass="AssignmentsListViewController" customModule="SWUTotalInfoSystem" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="p8R-wY-sa6">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -137,7 +137,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="AHV-EG-bkD" customClass="AssignmentsTableViewCell" customModule="SWUTotalInfoSystem" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="AHV-EG-bkD" customClass="AssignmentsListTableViewCell" customModule="SWUTotalInfoSystem" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="AHV-EG-bkD" id="Y1H-AF-Pty">

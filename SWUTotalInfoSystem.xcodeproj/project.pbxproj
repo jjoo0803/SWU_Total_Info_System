@@ -13,8 +13,8 @@
 		99076BD722006C4800DCDB48 /* LectureMaterialListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99076BD622006C4800DCDB48 /* LectureMaterialListViewController.swift */; };
 		99076BD922006C9700DCDB48 /* NoticeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99076BD822006C9700DCDB48 /* NoticeListViewController.swift */; };
 		99076BDB22006CAD00DCDB48 /* NoticeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99076BDA22006CAD00DCDB48 /* NoticeListTableViewCell.swift */; };
-		99076BDD22006CC900DCDB48 /* AssignmentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99076BDC22006CC900DCDB48 /* AssignmentsTableViewCell.swift */; };
-		99076BDF22006CF400DCDB48 /* AssignmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99076BDE22006CF400DCDB48 /* AssignmentsViewController.swift */; };
+		99076BDD22006CC900DCDB48 /* AssignmentsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99076BDC22006CC900DCDB48 /* AssignmentsListTableViewCell.swift */; };
+		99076BDF22006CF400DCDB48 /* AssignmentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99076BDE22006CF400DCDB48 /* AssignmentsListViewController.swift */; };
 		9912775E2200527200F3AC16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9912775D2200527200F3AC16 /* AppDelegate.swift */; };
 		991277602200527200F3AC16 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9912775F2200527200F3AC16 /* LoginViewController.swift */; };
 		991277632200527200F3AC16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991277612200527200F3AC16 /* Main.storyboard */; };
@@ -30,8 +30,8 @@
 		99076BD622006C4800DCDB48 /* LectureMaterialListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureMaterialListViewController.swift; sourceTree = "<group>"; };
 		99076BD822006C9700DCDB48 /* NoticeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeListViewController.swift; sourceTree = "<group>"; };
 		99076BDA22006CAD00DCDB48 /* NoticeListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeListTableViewCell.swift; sourceTree = "<group>"; };
-		99076BDC22006CC900DCDB48 /* AssignmentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsTableViewCell.swift; sourceTree = "<group>"; };
-		99076BDE22006CF400DCDB48 /* AssignmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsViewController.swift; sourceTree = "<group>"; };
+		99076BDC22006CC900DCDB48 /* AssignmentsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsListTableViewCell.swift; sourceTree = "<group>"; };
+		99076BDE22006CF400DCDB48 /* AssignmentsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsListViewController.swift; sourceTree = "<group>"; };
 		9912775A2200527200F3AC16 /* SWUTotalInfoSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWUTotalInfoSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9912775D2200527200F3AC16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9912775F2200527200F3AC16 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 				99076BD12200697C00DCDB48 /* ClassListTableViewCell.swift */,
 				99076BD422006C2700DCDB48 /* LectureMaterialListTableViewCell.swift */,
 				99076BDA22006CAD00DCDB48 /* NoticeListTableViewCell.swift */,
-				99076BDC22006CC900DCDB48 /* AssignmentsTableViewCell.swift */,
+				99076BDC22006CC900DCDB48 /* AssignmentsListTableViewCell.swift */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -88,7 +88,7 @@
 				99076BCF2200693300DCDB48 /* ClassListViewController.swift */,
 				99076BD622006C4800DCDB48 /* LectureMaterialListViewController.swift */,
 				99076BD822006C9700DCDB48 /* NoticeListViewController.swift */,
-				99076BDE22006CF400DCDB48 /* AssignmentsViewController.swift */,
+				99076BDE22006CF400DCDB48 /* AssignmentsListViewController.swift */,
 				99076BD32200698600DCDB48 /* TableViewCell */,
 				991277612200527200F3AC16 /* Main.storyboard */,
 				991277672200527500F3AC16 /* Assets.xcassets */,
@@ -170,10 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99076BDF22006CF400DCDB48 /* AssignmentsViewController.swift in Sources */,
+				99076BDF22006CF400DCDB48 /* AssignmentsListViewController.swift in Sources */,
 				991277602200527200F3AC16 /* LoginViewController.swift in Sources */,
 				99076BDB22006CAD00DCDB48 /* NoticeListTableViewCell.swift in Sources */,
-				99076BDD22006CC900DCDB48 /* AssignmentsTableViewCell.swift in Sources */,
+				99076BDD22006CC900DCDB48 /* AssignmentsListTableViewCell.swift in Sources */,
 				99076BD22200697C00DCDB48 /* ClassListTableViewCell.swift in Sources */,
 				99076BD02200693300DCDB48 /* ClassListViewController.swift in Sources */,
 				99076BD522006C2700DCDB48 /* LectureMaterialListTableViewCell.swift in Sources */,
