@@ -40,6 +40,10 @@
                                     <segue destination="JSc-B8-csi" kind="show" id="jck-gg-Y58"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="로고" translatesAutoresizingMaskIntoConstraints="NO" id="JgB-ic-5MB">
+                                <rect key="frame" x="67" y="79" width="240" height="208"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -249,6 +253,9 @@
             <point key="canvasLocation" x="279" y="99"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="로고" width="567" height="567"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="24F-Nw-6Ga"/>
     </inferredMetricsTieBreakers>
