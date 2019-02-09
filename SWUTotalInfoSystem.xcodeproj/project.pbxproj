@@ -15,6 +15,12 @@
 		99076BDB22006CAD00DCDB48 /* NoticeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99076BDA22006CAD00DCDB48 /* NoticeListTableViewCell.swift */; };
 		99076BDD22006CC900DCDB48 /* AssignmentsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99076BDC22006CC900DCDB48 /* AssignmentsListTableViewCell.swift */; };
 		99076BDF22006CF400DCDB48 /* AssignmentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99076BDE22006CF400DCDB48 /* AssignmentsListViewController.swift */; };
+		990EDBDF220EBFBB00B1F872 /* LectureResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990EDBDE220EBFBB00B1F872 /* LectureResponse.swift */; };
+		990EDBE1220EBFC900B1F872 /* LectureDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990EDBE0220EBFC900B1F872 /* LectureDetailResponse.swift */; };
+		990F12F3220DA07B002AE178 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990F12F2220DA07B002AE178 /* LoginResponse.swift */; };
+		990F12F5220DA106002AE178 /* SubjectListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990F12F4220DA106002AE178 /* SubjectListResponse.swift */; };
+		990F12F7220DA138002AE178 /* NoticeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990F12F6220DA138002AE178 /* NoticeResponse.swift */; };
+		990F12F9220DA145002AE178 /* NoticeDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990F12F8220DA145002AE178 /* NoticeDetailResponse.swift */; };
 		9912775E2200527200F3AC16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9912775D2200527200F3AC16 /* AppDelegate.swift */; };
 		991277602200527200F3AC16 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9912775F2200527200F3AC16 /* LoginViewController.swift */; };
 		991277632200527200F3AC16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991277612200527200F3AC16 /* Main.storyboard */; };
@@ -32,6 +38,12 @@
 		99076BDA22006CAD00DCDB48 /* NoticeListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeListTableViewCell.swift; sourceTree = "<group>"; };
 		99076BDC22006CC900DCDB48 /* AssignmentsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsListTableViewCell.swift; sourceTree = "<group>"; };
 		99076BDE22006CF400DCDB48 /* AssignmentsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsListViewController.swift; sourceTree = "<group>"; };
+		990EDBDE220EBFBB00B1F872 /* LectureResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureResponse.swift; sourceTree = "<group>"; };
+		990EDBE0220EBFC900B1F872 /* LectureDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureDetailResponse.swift; sourceTree = "<group>"; };
+		990F12F2220DA07B002AE178 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		990F12F4220DA106002AE178 /* SubjectListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectListResponse.swift; sourceTree = "<group>"; };
+		990F12F6220DA138002AE178 /* NoticeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeResponse.swift; sourceTree = "<group>"; };
+		990F12F8220DA145002AE178 /* NoticeDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeDetailResponse.swift; sourceTree = "<group>"; };
 		9912775A2200527200F3AC16 /* SWUTotalInfoSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWUTotalInfoSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9912775D2200527200F3AC16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9912775F2200527200F3AC16 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +76,19 @@
 			path = TableViewCell;
 			sourceTree = "<group>";
 		};
+		990F12EF220DA028002AE178 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				990F12F2220DA07B002AE178 /* LoginResponse.swift */,
+				990F12F4220DA106002AE178 /* SubjectListResponse.swift */,
+				990F12F6220DA138002AE178 /* NoticeResponse.swift */,
+				990F12F8220DA145002AE178 /* NoticeDetailResponse.swift */,
+				990EDBDE220EBFBB00B1F872 /* LectureResponse.swift */,
+				990EDBE0220EBFC900B1F872 /* LectureDetailResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		991277512200527200F3AC16 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +108,7 @@
 		9912775C2200527200F3AC16 /* SWUTotalInfoSystem */ = {
 			isa = PBXGroup;
 			children = (
+				990F12EF220DA028002AE178 /* Model */,
 				9912775D2200527200F3AC16 /* AppDelegate.swift */,
 				9912775F2200527200F3AC16 /* LoginViewController.swift */,
 				99076BCF2200693300DCDB48 /* ClassListViewController.swift */,
@@ -171,15 +197,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				99076BDF22006CF400DCDB48 /* AssignmentsListViewController.swift in Sources */,
+				990F12F3220DA07B002AE178 /* LoginResponse.swift in Sources */,
 				991277602200527200F3AC16 /* LoginViewController.swift in Sources */,
+				990EDBDF220EBFBB00B1F872 /* LectureResponse.swift in Sources */,
 				99076BDB22006CAD00DCDB48 /* NoticeListTableViewCell.swift in Sources */,
 				99076BDD22006CC900DCDB48 /* AssignmentsListTableViewCell.swift in Sources */,
+				990F12F9220DA145002AE178 /* NoticeDetailResponse.swift in Sources */,
 				99076BD22200697C00DCDB48 /* ClassListTableViewCell.swift in Sources */,
 				99076BD02200693300DCDB48 /* ClassListViewController.swift in Sources */,
 				99076BD522006C2700DCDB48 /* LectureMaterialListTableViewCell.swift in Sources */,
 				991277662200527200F3AC16 /* SWUTotalInfoSystem.xcdatamodeld in Sources */,
+				990F12F7220DA138002AE178 /* NoticeResponse.swift in Sources */,
+				990F12F5220DA106002AE178 /* SubjectListResponse.swift in Sources */,
 				99076BD722006C4800DCDB48 /* LectureMaterialListViewController.swift in Sources */,
 				99076BD922006C9700DCDB48 /* NoticeListViewController.swift in Sources */,
+				990EDBE1220EBFC900B1F872 /* LectureDetailResponse.swift in Sources */,
 				9912775E2200527200F3AC16 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
