@@ -8,8 +8,10 @@
 
 import UIKit
 
-class ClassListTableViewCell: UITableViewCell {
+class SubjectListTableViewCell: UITableViewCell {
 
+    @IBOutlet var SubjectTitleLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

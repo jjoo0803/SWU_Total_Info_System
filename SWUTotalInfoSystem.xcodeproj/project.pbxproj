@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		99076BD02200693300DCDB48 /* ClassListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99076BCF2200693300DCDB48 /* ClassListViewController.swift */; };
-		99076BD22200697C00DCDB48 /* ClassListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99076BD12200697C00DCDB48 /* ClassListTableViewCell.swift */; };
+		99076BD22200697C00DCDB48 /* SubjectListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99076BD12200697C00DCDB48 /* SubjectListTableViewCell.swift */; };
 		99076BD522006C2700DCDB48 /* LectureMaterialListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99076BD422006C2700DCDB48 /* LectureMaterialListTableViewCell.swift */; };
 		99076BD722006C4800DCDB48 /* LectureMaterialListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99076BD622006C4800DCDB48 /* LectureMaterialListViewController.swift */; };
 		99076BD922006C9700DCDB48 /* NoticeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99076BD822006C9700DCDB48 /* NoticeListViewController.swift */; };
 		99076BDB22006CAD00DCDB48 /* NoticeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99076BDA22006CAD00DCDB48 /* NoticeListTableViewCell.swift */; };
 		99076BDD22006CC900DCDB48 /* AssignmentsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99076BDC22006CC900DCDB48 /* AssignmentsListTableViewCell.swift */; };
 		99076BDF22006CF400DCDB48 /* AssignmentsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99076BDE22006CF400DCDB48 /* AssignmentsListViewController.swift */; };
+		990C5BE9221AF6270058650A /* SubjectListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990C5BE8221AF6270058650A /* SubjectListViewController.swift */; };
 		990EDBDF220EBFBB00B1F872 /* LectureResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990EDBDE220EBFBB00B1F872 /* LectureResponse.swift */; };
 		990EDBE1220EBFC900B1F872 /* LectureDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990EDBE0220EBFC900B1F872 /* LectureDetailResponse.swift */; };
+		990EDBE3220ED08000B1F872 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990EDBE2220ED08000B1F872 /* Request.swift */; };
 		990F12F3220DA07B002AE178 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990F12F2220DA07B002AE178 /* LoginResponse.swift */; };
 		990F12F5220DA106002AE178 /* SubjectListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990F12F4220DA106002AE178 /* SubjectListResponse.swift */; };
 		990F12F7220DA138002AE178 /* NoticeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 990F12F6220DA138002AE178 /* NoticeResponse.swift */; };
@@ -27,19 +28,22 @@
 		991277662200527200F3AC16 /* SWUTotalInfoSystem.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 991277642200527200F3AC16 /* SWUTotalInfoSystem.xcdatamodeld */; };
 		991277682200527500F3AC16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 991277672200527500F3AC16 /* Assets.xcassets */; };
 		9912776B2200527500F3AC16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991277692200527500F3AC16 /* LaunchScreen.storyboard */; };
+		ABFC259AD4AA73F4EEDA7362 /* Pods_SWUTotalInfoSystem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DC3D6C9B7DA5B02D5BF0171 /* Pods_SWUTotalInfoSystem.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		99076BCF2200693300DCDB48 /* ClassListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassListViewController.swift; sourceTree = "<group>"; };
-		99076BD12200697C00DCDB48 /* ClassListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassListTableViewCell.swift; sourceTree = "<group>"; };
+		77EFE9C2586EACF0BFDFD551 /* Pods-SWUTotalInfoSystem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWUTotalInfoSystem.debug.xcconfig"; path = "Target Support Files/Pods-SWUTotalInfoSystem/Pods-SWUTotalInfoSystem.debug.xcconfig"; sourceTree = "<group>"; };
+		99076BD12200697C00DCDB48 /* SubjectListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectListTableViewCell.swift; sourceTree = "<group>"; };
 		99076BD422006C2700DCDB48 /* LectureMaterialListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureMaterialListTableViewCell.swift; sourceTree = "<group>"; };
 		99076BD622006C4800DCDB48 /* LectureMaterialListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureMaterialListViewController.swift; sourceTree = "<group>"; };
 		99076BD822006C9700DCDB48 /* NoticeListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeListViewController.swift; sourceTree = "<group>"; };
 		99076BDA22006CAD00DCDB48 /* NoticeListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeListTableViewCell.swift; sourceTree = "<group>"; };
 		99076BDC22006CC900DCDB48 /* AssignmentsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsListTableViewCell.swift; sourceTree = "<group>"; };
 		99076BDE22006CF400DCDB48 /* AssignmentsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentsListViewController.swift; sourceTree = "<group>"; };
+		990C5BE8221AF6270058650A /* SubjectListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectListViewController.swift; sourceTree = "<group>"; };
 		990EDBDE220EBFBB00B1F872 /* LectureResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureResponse.swift; sourceTree = "<group>"; };
 		990EDBE0220EBFC900B1F872 /* LectureDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureDetailResponse.swift; sourceTree = "<group>"; };
+		990EDBE2220ED08000B1F872 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		990F12F2220DA07B002AE178 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
 		990F12F4220DA106002AE178 /* SubjectListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectListResponse.swift; sourceTree = "<group>"; };
 		990F12F6220DA138002AE178 /* NoticeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeResponse.swift; sourceTree = "<group>"; };
@@ -52,6 +56,8 @@
 		991277672200527500F3AC16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9912776A2200527500F3AC16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9912776C2200527500F3AC16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DC3D6C9B7DA5B02D5BF0171 /* Pods_SWUTotalInfoSystem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWUTotalInfoSystem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AD609897220C99D92EBA12 /* Pods-SWUTotalInfoSystem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWUTotalInfoSystem.release.xcconfig"; path = "Target Support Files/Pods-SWUTotalInfoSystem/Pods-SWUTotalInfoSystem.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,18 +65,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABFC259AD4AA73F4EEDA7362 /* Pods_SWUTotalInfoSystem.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1948B3E0F69C0DC9C2506E38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DC3D6C9B7DA5B02D5BF0171 /* Pods_SWUTotalInfoSystem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		99076BD32200698600DCDB48 /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				99076BD12200697C00DCDB48 /* ClassListTableViewCell.swift */,
-				99076BD422006C2700DCDB48 /* LectureMaterialListTableViewCell.swift */,
+				99076BD12200697C00DCDB48 /* SubjectListTableViewCell.swift */,
 				99076BDA22006CAD00DCDB48 /* NoticeListTableViewCell.swift */,
+				99076BD422006C2700DCDB48 /* LectureMaterialListTableViewCell.swift */,
 				99076BDC22006CC900DCDB48 /* AssignmentsListTableViewCell.swift */,
 			);
 			path = TableViewCell;
@@ -94,6 +109,8 @@
 			children = (
 				9912775C2200527200F3AC16 /* SWUTotalInfoSystem */,
 				9912775B2200527200F3AC16 /* Products */,
+				9DBA38227C4E771A4AC57A28 /* Pods */,
+				1948B3E0F69C0DC9C2506E38 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,10 +127,11 @@
 			children = (
 				990F12EF220DA028002AE178 /* Model */,
 				9912775D2200527200F3AC16 /* AppDelegate.swift */,
+				990EDBE2220ED08000B1F872 /* Request.swift */,
 				9912775F2200527200F3AC16 /* LoginViewController.swift */,
-				99076BCF2200693300DCDB48 /* ClassListViewController.swift */,
-				99076BD622006C4800DCDB48 /* LectureMaterialListViewController.swift */,
+				990C5BE8221AF6270058650A /* SubjectListViewController.swift */,
 				99076BD822006C9700DCDB48 /* NoticeListViewController.swift */,
+				99076BD622006C4800DCDB48 /* LectureMaterialListViewController.swift */,
 				99076BDE22006CF400DCDB48 /* AssignmentsListViewController.swift */,
 				99076BD32200698600DCDB48 /* TableViewCell */,
 				991277612200527200F3AC16 /* Main.storyboard */,
@@ -125,6 +143,16 @@
 			path = SWUTotalInfoSystem;
 			sourceTree = "<group>";
 		};
+		9DBA38227C4E771A4AC57A28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				77EFE9C2586EACF0BFDFD551 /* Pods-SWUTotalInfoSystem.debug.xcconfig */,
+				C5AD609897220C99D92EBA12 /* Pods-SWUTotalInfoSystem.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9912776F2200527500F3AC16 /* Build configuration list for PBXNativeTarget "SWUTotalInfoSystem" */;
 			buildPhases = (
+				89EDEB75E6E075AAD0A27464 /* [CP] Check Pods Manifest.lock */,
 				991277562200527200F3AC16 /* Sources */,
 				991277572200527200F3AC16 /* Frameworks */,
 				991277582200527200F3AC16 /* Resources */,
+				34D8C8E91D1222550EED274A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,6 +221,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34D8C8E91D1222550EED274A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SWUTotalInfoSystem/Pods-SWUTotalInfoSystem-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SWUTotalInfoSystem/Pods-SWUTotalInfoSystem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89EDEB75E6E075AAD0A27464 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SWUTotalInfoSystem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		991277562200527200F3AC16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -203,14 +280,15 @@
 				99076BDB22006CAD00DCDB48 /* NoticeListTableViewCell.swift in Sources */,
 				99076BDD22006CC900DCDB48 /* AssignmentsListTableViewCell.swift in Sources */,
 				990F12F9220DA145002AE178 /* NoticeDetailResponse.swift in Sources */,
-				99076BD22200697C00DCDB48 /* ClassListTableViewCell.swift in Sources */,
-				99076BD02200693300DCDB48 /* ClassListViewController.swift in Sources */,
+				990EDBE3220ED08000B1F872 /* Request.swift in Sources */,
+				99076BD22200697C00DCDB48 /* SubjectListTableViewCell.swift in Sources */,
 				99076BD522006C2700DCDB48 /* LectureMaterialListTableViewCell.swift in Sources */,
 				991277662200527200F3AC16 /* SWUTotalInfoSystem.xcdatamodeld in Sources */,
 				990F12F7220DA138002AE178 /* NoticeResponse.swift in Sources */,
 				990F12F5220DA106002AE178 /* SubjectListResponse.swift in Sources */,
 				99076BD722006C4800DCDB48 /* LectureMaterialListViewController.swift in Sources */,
 				99076BD922006C9700DCDB48 /* NoticeListViewController.swift in Sources */,
+				990C5BE9221AF6270058650A /* SubjectListViewController.swift in Sources */,
 				990EDBE1220EBFC900B1F872 /* LectureDetailResponse.swift in Sources */,
 				9912775E2200527200F3AC16 /* AppDelegate.swift in Sources */,
 			);
@@ -356,6 +434,7 @@
 		};
 		991277702200527500F3AC16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77EFE9C2586EACF0BFDFD551 /* Pods-SWUTotalInfoSystem.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -374,6 +453,7 @@
 		};
 		991277712200527500F3AC16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5AD609897220C99D92EBA12 /* Pods-SWUTotalInfoSystem.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

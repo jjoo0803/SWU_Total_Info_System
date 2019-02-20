@@ -10,12 +10,24 @@ import UIKit
 
 class NoticeListViewController: UIViewController {
 
+    @IBOutlet var tableView: UITableView!
+    
+    // MARK:- Properties
+    let cell = "NoticeCell"
+    var notice: [NoticeResponse.Response]?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+         NotificationCenter.default.addObserver(self, selector: #selector(self.didReceiveNoticeNotification(_:)), name: DidReceiveNoticeNotification, object: nil)
     }
     
+    @objc func didReceiveNoticeNotification(_ noti: Notification) {
+        guard let notice: [NoticeResponse.Response] = noti.userInfo?["notice"] as? [NoticeResponse.Response] else { return }
+        self.notice = notice
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
+    }
 
     /*
     // MARK: - Navigation
@@ -27,4 +39,17 @@ class NoticeListViewController: UIViewController {
     }
     */
 
+}
+
+// MARK:- DataSource
+extension NoticeListViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return notice?.count ?? 0
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cell, for: indexPath) as? NoticeListTableViewCell else { return UITableViewCell() }
+        guard let notice = self.notice else { return UITableViewCell() }
+        return cell
+    }
 }

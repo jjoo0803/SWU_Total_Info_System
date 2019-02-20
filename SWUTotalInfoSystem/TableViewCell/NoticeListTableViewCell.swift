@@ -9,6 +9,12 @@
 import UIKit
 
 class NoticeListTableViewCell: UITableViewCell {
+    
+    // MARk:- IBOulet
+    @IBOutlet var titleLabel: UILabel!
+    @IBOutlet var writerLabel: UILabel!
+    @IBOutlet var postDateLabel: UILabel!
+    @IBOutlet var fileImageVIew: UIImageView!
 
     override func awakeFromNib() {
         super.awakeFromNib()
